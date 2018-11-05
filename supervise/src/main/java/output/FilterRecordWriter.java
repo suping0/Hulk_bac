@@ -136,9 +136,15 @@ public class FilterRecordWriter extends RecordWriter<Text, NullWritable> {
         String event = jsObj.getString("event");
         String role = jsObj.getString("role");
         tableName = getTableNameByEvent(event,role);
-
+        String[] fieldArray = new String[0];
         // 配置文件中表的字段
-        String[] fieldArray = getFieldsByTableName(tableName);
+        try {
+            fieldArray = getFieldsByTableName(tableName);
+        }catch (Exception e){
+            e.printStackTrace();
+            System.out.println(tableName+"该表名不存在对应字段");
+        }
+
 
         // 根据表的字段得到值
 
