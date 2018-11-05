@@ -6,7 +6,11 @@
 
     <groupId>lininic.bigdata</groupId>
     <artifactId>Hulk</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>supervise</module>
+    </modules>
 
 
 </project>
