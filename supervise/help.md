@@ -27,9 +27,16 @@
 	ps -ef| grep 11520  查看进程信息
 
 ##模块打包
+
+
 ![](https://i.imgur.com/QnHoRre.png)
+
 ![](https://i.imgur.com/w5vzkAu.png)
+
 ![](https://i.imgur.com/XGcVZ7e.png)
+
 ![](https://i.imgur.com/EBol8rn.png)
+
 ![](https://i.imgur.com/3LgztL1.png)
+
 ![](https://i.imgur.com/Aj57AVP.png)
